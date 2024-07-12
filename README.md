@@ -1,2 +1,2 @@
-# HaigBishop.github.io
+# Haig Bishop
 Site for Haig
