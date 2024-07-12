@@ -1,2 +1,2 @@
-# Haig Bishop
-Site for Haig
+# Haig's Site
+(for Haig)
