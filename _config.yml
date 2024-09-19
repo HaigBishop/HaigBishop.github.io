@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "Haig Bishop"
-  avatar: "/assets/images/haig_portrait.jpg"
+  avatar: "/assets/haig_portrait.jpg"
   links:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/haig-bishop-34536a226/"
