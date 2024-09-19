@@ -1,5 +1,5 @@
 <div class="author__content">
-  <h1>{{ site.author.name }}</h1>
+  <h2>{{ site.author.name }}</h2>
   <p>{{ site.description }}</p>
   <ul class="social-media-list">
     {% for link in site.author.links %}
@@ -10,5 +10,5 @@
       </li>
     {% endfor %}
   </ul>
-  <img src="{{ site.author.avatar }}" alt="Portrait of Haig Bishop" />
+  <img src="{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}" class="sidebar-image" />
 </div>
