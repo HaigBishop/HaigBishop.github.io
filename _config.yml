@@ -2,9 +2,11 @@ title: "Haig Bishop"
 description: "AA MSc student at the University of Canterbury with a focus on applying computer science to scientific progress."
 baseurl: "" # Leave this empty for a user site
 url: "https://HaigBishop.github.io" # Your GitHub Pages URL
-theme: "minimal"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 author:
   name: "Haig Bishop"
