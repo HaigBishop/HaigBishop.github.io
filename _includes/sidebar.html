@@ -1,0 +1,14 @@
+<div class="author__content">
+  <h1>{{ site.author.name }}</h1>
+  <p>{{ site.description }}</p>
+  <ul class="social-media-list">
+    {% for link in site.author.links %}
+      <li>
+        <a href="{{ link.url }}" target="_blank">
+          <i class="{{ link.icon }}"></i> {{ link.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <img src="{{ site.author.avatar }}" alt="Portrait of Haig Bishop" />
+</div>

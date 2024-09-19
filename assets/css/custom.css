@@ -1,0 +1,17 @@
+/* Custom CSS styles go here */
+
+/* Example: Add a border to the portrait image */
+.author__content img {
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+/* Example: Adjusting the sidebar links' style */
+.social-media-list a {
+  color: #0077b5; /* LinkedIn's blue color */
+  text-decoration: none;
+}
+
+.social-media-list a:hover {
+  text-decoration: underline;
+}

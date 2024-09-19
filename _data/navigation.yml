@@ -1,0 +1,5 @@
+main:
+  - title: "Interests"
+    url: "/#interests"
+  - title: "Projects"
+    url: "/#projects"
