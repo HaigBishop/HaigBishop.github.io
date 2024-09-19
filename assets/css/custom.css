@@ -19,11 +19,14 @@
 }
 
 /* Portrait image styles */
+/* Portrait image styles */
 .portrait-image {
-  width: 100%;
+  width: 10%; /* Adjust the width to make the image smaller */
+  display: block; /* Centers the image within the side panel */
+  margin: 20px auto; /* Add some margin for spacing and centering */
   border-radius: 8px;
-  margin-top: 20px;
 }
+
 
 /* Footer styles */
 footer {
