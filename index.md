@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Home
+title: haig.science
 ---
-
-
 
 ## Interests
 - Microbiomes
