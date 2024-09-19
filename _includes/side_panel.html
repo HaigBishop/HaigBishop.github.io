@@ -1,11 +1,13 @@
 <div class="side-panel">
-    <h2>{{ site.author.name }}</h2>
-    <p>{{ site.author.bio }}</p>
-    <ul>
-      {% for link in site.author.links %}
-      <li><a href="{{ link.url }}" target="_blank">{{ link.label }}</a></li>
-      {% endfor %}
-    </ul>
+  <h2>{{ site.author.name }}</h2>
+  <p>{{ site.author.bio }}</p>
+  <ul>
+    {% for link in site.author.links %}
+    <li><a href="{{ link.url }}" target="_blank">{{ link.label }}</a></li>
+    {% endfor %}
+  </ul>
+  <!-- Wrap the image in a div for better styling control -->
+  <div class="portrait-container">
     <img src="{{ site.author.portrait }}" alt="Portrait of Haig Bishop" class="portrait-image">
   </div>
-  
+</div>
