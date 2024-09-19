@@ -8,7 +8,7 @@
 .side-panel {
   flex: 0 0 35%; /* Fixed width of 30% of the container */
   background-color: #f4f4f4;
-  padding: 25px;
+  padding: 40px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ body {
 .bio {
   font-size: 0.9em; /* Adjust the font size */
   color: #555; /* Optional: Softer color */
-  margin-top: 5px; /* Reduce the gap above the bio */
+  margin-top: 2px; /* Reduce the gap above the bio */
   margin-bottom: 5px; /* Reduce the gap below the bio */
 }
 
