@@ -1,49 +1,46 @@
-/* Flex container to align side panel and main content */
+/* Flex container for side panel and main content */
 .container {
   display: flex;
-  flex-direction: row; /* Ensure side-by-side layout */
-  min-height: 100vh; /* Make sure it takes the full viewport height */
+  height: 100vh; /* Full viewport height */
 }
 
 /* Side panel styles */
 .side-panel {
-  width: 30%;
-  background-color: #f4f4f4; /* Add background color to side panel */
+  flex: 0 0 30%; /* Fixed width of 30% of the container */
+  background-color: #f4f4f4;
   padding: 20px;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: flex-start; /* Align content to the top */
+  flex-direction: column;
 }
 
 /* Main content styles */
 .main-content {
-  width: 70%;
+  flex: 1; /* Takes the remaining 70% */
   padding: 20px;
   box-sizing: border-box;
-  background-color: #ffffff; /* Add a white background to separate it from the side panel */
-  overflow: auto; /* Add scrolling if content overflows */
+  background-color: #ffffff;
+  overflow-y: auto; /* Add vertical scrolling if content overflows */
 }
 
 /* Portrait container styles */
 .portrait-container {
-  width: 100%; /* Make the container take full width of the side panel */
   display: flex;
   justify-content: center; /* Center the image horizontally */
-  padding-top: 20px; /* Add some space above the image */
+  margin-top: 20px; /* Add some space above the image */
 }
 
 /* Portrait image styles */
 .portrait-image {
-  max-width: 80%; /* Adjust the size of the image within its container */
+  max-width: 80%; /* Restrict the image width to 80% of the container */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: Add rounded corners */
+  border-radius: 8px; /* Optional rounded corners */
 }
+
 
 /* Basic body styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
