@@ -8,16 +8,19 @@
   {{ site.seo_tag }}
 </head>
 <body>
-  <!-- Include the side panel -->
-  {% include side_panel.html %}
-  
-  <!-- Main content area -->
-  <div class="main-content" style="width: 70%; float: right; padding: 20px;">
-    {{ content }}
+  <!-- Flex container for side panel and main content -->
+  <div class="container">
+    <!-- Include the side panel -->
+    {% include side_panel.html %}
+    
+    <!-- Main content area -->
+    <div class="main-content">
+      {{ content }}
+    </div>
   </div>
   
   <!-- Footer -->
-  <footer style="clear: both; text-align: center; padding: 20px; margin-top: 20px;">
+  <footer>
     {{ site.footer.content }}
   </footer>
 </body>

@@ -1,5 +1,4 @@
-<div class="side-panel" style="width: 30%; padding: 20px; float: left;">
-    <img src="{{ site.author.portrait }}" alt="Portrait of Haig Bishop" style="width: 100%; border-radius: 8px; padding-bottom: 20px;">
+<div class="side-panel">
     <h2>{{ site.author.name }}</h2>
     <p>{{ site.author.bio }}</p>
     <ul>
@@ -7,5 +6,6 @@
       <li><a href="{{ link.url }}" target="_blank">{{ link.label }}</a></li>
       {% endfor %}
     </ul>
+    <img src="{{ site.author.portrait }}" alt="Portrait of Haig Bishop" class="portrait-image">
   </div>
   
