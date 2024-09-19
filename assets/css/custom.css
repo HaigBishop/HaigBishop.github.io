@@ -44,3 +44,34 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Bio text styles */
+.bio {
+  font-size: 0.9em; /* Adjust this value to make the font smaller */
+  color: #555; /* Optional: A softer color for the bio text */
+}
+
+/* Social links styling */
+.social-links {
+  margin-top: 20px; /* Add some space above the icons */
+}
+
+.social-links a {
+  margin-right: 15px; /* Space between the icons */
+  color: #0077b5; /* LinkedIn color */
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #333; /* Color change on hover */
+}
+
+/* Adjust GitHub icon color */
+.social-links a:nth-child(2) {
+  color: #333; /* Default GitHub color */
+}
+
+.social-links a:nth-child(2):hover {
+  color: #0077b5; /* Optional hover color */
+}
+
