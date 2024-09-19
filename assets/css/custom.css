@@ -1,22 +1,62 @@
 /* Custom CSS Styles */
 
-.author__content img {
-  max-width: 100%;
+.sidebar-image {
+  max-width: 150px; /* Adjust the value as needed */
   height: auto;
   border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.author__content h2 {
+  text-align: center;
+}
+
+.author__content p {
+  text-align: center;
+  padding: 0 10px;
 }
 
 .social-media-list {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 .social-media-list li {
   display: inline-block;
-  margin-right: 10px;
+  margin: 0 5px;
 }
 
 .social-media-list a {
   text-decoration: none;
   color: inherit;
+  font-size: 1.2em;
+}
+
+/* Ensure the sidebar is always open */
+.sidebar {
+  position: fixed;
+  width: 250px; /* Adjust the width as needed */
+  overflow-y: auto;
+}
+
+/* Adjust the main content to accommodate the sidebar */
+.site-content {
+  margin-left: 250px; /* Should match the sidebar width */
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+  .sidebar,
+  .site-content {
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+
+  .site-content {
+    padding: 20px;
+  }
 }
