@@ -19,8 +19,7 @@ title: Home
 ## Projects
 #### Enzyme Kinetics Analysis 2 (in development)
   - A web app for modeling enzyme-catalyzed chemical reactions for both education and research.
-
-  [Previous version](https://enzyme-kinetics.shinyapps.io/enzkinet_webpage/)
+  - [Previous version](https://enzyme-kinetics.shinyapps.io/enzkinet_webpage/)
 
 #### PetriScan (coming mid 2025)
   - A mobile app for instantly counting colonies on an agar plate using computer vision.
@@ -30,8 +29,6 @@ title: Home
 
 #### Pillar Centroid Tracker (Nov 2023)
   - Purpose-made computer vision software allowing for the measurement of forces produced by fungi.
-
-  [Publication](https://ieeexplore.ieee.org/document/10344304) 
-
-  [GitHub repo](https://github.com/HaigBishop/pillar-centroid-tracker)
+  - [Publication](https://ieeexplore.ieee.org/document/10344304) 
+  - [GitHub repo](https://github.com/HaigBishop/pillar-centroid-tracker)
 
