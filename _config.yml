@@ -1,5 +1,5 @@
 title: "Haig Bishop"
-description: "A MSc student at the University of Canterbury with a focus on applying computer science to scientific progress."
+description: "AA MSc student at the University of Canterbury with a focus on applying computer science to scientific progress."
 baseurl: "" # Leave this empty for a user site
 url: "https://HaigBishop.github.io" # Your GitHub Pages URL
 remote_theme: "mmistakes/minimal-mistakes"
