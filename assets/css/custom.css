@@ -38,10 +38,20 @@ body {
   margin-bottom: 5px;
 }
 
+/* Email styling */
 .email {
-  font-size: 0.9em; 
-  color: #555;
+  margin-top: 10px; /* Adjust spacing */
 }
+
+.email a {
+  color: #333; /* Default color */
+  text-decoration: none; /* Remove underline */
+}
+
+.email a:hover {
+  color: #0077b5; /* Color change on hover */
+}
+
 /* Social links styling */
 .social-links {
   margin-top: 15px; /* Adjust spacing above the icons */
