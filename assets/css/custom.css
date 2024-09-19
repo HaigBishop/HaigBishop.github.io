@@ -6,7 +6,7 @@
 
 /* Side panel styles */
 .side-panel {
-  flex: 0 0 30%; /* Fixed width of 30% of the container */
+  flex: 0 0 35%; /* Fixed width of 30% of the container */
   background-color: #f4f4f4;
   padding: 20px;
   box-sizing: border-box;
@@ -27,14 +27,14 @@
 .portrait-container {
   display: flex;
   justify-content: center; /* Center the image horizontally */
-  margin-top: 20px; /* Add some space above the image */
+  margin-top: 10px; /* Add some space above the image */
 }
 
 /* Portrait image styles */
 .portrait-image {
-  max-width: 80%; /* Restrict the image width to 80% of the container */
+  max-width: 92%; /* Restrict the image width to 80% of the container */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional rounded corners */
+  border-radius: 3px; /* Optional rounded corners */
 }
 
 
