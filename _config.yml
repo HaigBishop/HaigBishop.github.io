@@ -28,12 +28,19 @@ author:
 sidebar:
   nav: "sidebar-nav"  # Reference to your custom sidebar navigation
 
-# SASS configuration (if using custom CSS)
+# Include custom overrides
+include:
+  - _includes/custom
+
+# Footer customization
+footer:
+  show_feed_link: false
+
+# Custom CSS
 sass:
   style: compressed
   load_paths:
     - _sass
 
-# Custom CSS (optional)
 custom_css:
   - "/assets/css/custom.css"
