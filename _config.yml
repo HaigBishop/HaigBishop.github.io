@@ -1,6 +1,6 @@
 title: "Haig Bishop"
 description: "A MSc student at the University of Canterbury with a focus on applying computer science to scientific progress."
-baseurl: "" # Leave this empty for user site
+baseurl: "" # Leave this empty for a user site
 url: "https://HaigBishop.github.io" # Your GitHub Pages URL
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "Haig Bishop"
-  avatar: "/assets/haig_portrait.jpg"
+  avatar: "/assets/images/haig_portrait.jpg"
   links:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/haig-bishop-34536a226/"
@@ -17,3 +17,13 @@ author:
     - label: "GitHub"
       url: "https://github.com/HaigBishop/"
       icon: "fab fa-github"
+
+sidebar:
+  nav: "sidebar-nav" # Reference to your custom sidebar navigation
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+custom_css:
+  - "/assets/css/custom.css"
