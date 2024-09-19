@@ -32,12 +32,16 @@ body {
 }
 /* Bio text styles */
 .bio {
-  font-size: 0.9em; /* Adjust the font size */
-  color: #555; /* Optional: Softer color */
-  margin-top: 5px; /* Reduce the gap above the bio */
-  margin-bottom: 5px; /* Reduce the gap below the bio */
+  font-size: 0.9em; 
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
+.email {
+  font-size: 0.9em; 
+  color: #555;
+}
 /* Social links styling */
 .social-links {
   margin-top: 15px; /* Adjust spacing above the icons */
