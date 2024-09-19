@@ -30,4 +30,3 @@ title: Home
   - [Publication](https://ieeexplore.ieee.org/document/10344304) 
   - [GitHub repo](https://github.com/HaigBishop/pillar-centroid-tracker)
 
----
