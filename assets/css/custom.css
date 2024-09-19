@@ -8,7 +8,7 @@
 .side-panel {
   flex: 0 0 35%; /* Fixed width of 30% of the container */
   background-color: #f4f4f4;
-  padding: 15px;
+  padding: 25px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ body {
 .bio {
   font-size: 0.9em; /* Adjust the font size */
   color: #555; /* Optional: Softer color */
-  margin-top: 10px; /* Reduce the gap above the bio */
+  margin-top: 5px; /* Reduce the gap above the bio */
   margin-bottom: 5px; /* Reduce the gap below the bio */
 }
 
@@ -64,7 +64,7 @@ body {
 
 /* Portrait container styles */
 .portrait-container {
-  width: 100%; /* Full width of the side panel */
+  width: 95%; /* Full width of the side panel */
   display: flex;
   justify-content: center; /* Center the image horizontally */
   margin-top: 15px; /* Reduce space above the image */
@@ -72,9 +72,9 @@ body {
 
 /* Portrait image styles */
 .portrait-image {
-  max-width: 450px; /* Set the maximum width of the image */
+  max-width: 400px; /* Set the maximum width of the image */
   width: 100%; /* Ensure the image scales down responsively */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 3px; /* Optional rounded corners */
+  border-radius: 4px; /* Optional rounded corners */
 }
 
