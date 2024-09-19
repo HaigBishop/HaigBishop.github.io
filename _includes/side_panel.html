@@ -1,0 +1,11 @@
+<div class="side-panel" style="width: 30%; padding: 20px; float: left;">
+    <img src="{{ site.author.portrait }}" alt="Portrait of Haig Bishop" style="width: 100%; border-radius: 8px; padding-bottom: 20px;">
+    <h2>{{ site.author.name }}</h2>
+    <p>{{ site.author.bio }}</p>
+    <ul>
+      {% for link in site.author.links %}
+      <li><a href="{{ link.url }}" target="_blank">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  

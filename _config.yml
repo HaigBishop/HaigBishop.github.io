@@ -1,0 +1,32 @@
+title: "Haig Bishop's Website"
+description: "Personal website of Haig Bishop"
+baseurl: "" # Leave blank for root directory deployment
+url: "https://haig.science" # Your custom domain
+
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+# Sidebar and Navigation
+author:
+  name: "Haig Bishop"
+  bio: "A MSc student at the University of Canterbury with a focus on applying computer science to scientific progress."
+  links:
+    - label: "My LinkedIn"
+      url: "https://www.linkedin.com/in/haig-bishop-34536a226/"
+    - label: "My GitHub"
+      url: "https://github.com/HaigBishop/"
+  portrait: "/assets/images/haig_portrait.jpg"
+
+# Footer
+footer:
+  content: "© 2024 Haig Bishop"

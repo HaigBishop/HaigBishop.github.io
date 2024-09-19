@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  {{ site.seo_tag }}
+</head>
+<body>
+  <!-- Include the side panel -->
+  {% include side_panel.html %}
+  
+  <!-- Main content area -->
+  <div class="main-content" style="width: 70%; float: right; padding: 20px;">
+    {{ content }}
+  </div>
+  
+  <!-- Footer -->
+  <footer style="clear: both; text-align: center; padding: 20px; margin-top: 20px;">
+    {{ site.footer.content }}
+  </footer>
+</body>
+</html>
