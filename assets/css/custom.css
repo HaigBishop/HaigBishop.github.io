@@ -8,7 +8,7 @@
 .side-panel {
   flex: 0 0 35%; /* Fixed width of 30% of the container */
   background-color: #f4f4f4;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
 /* Main content styles */
 .main-content {
   flex: 1; /* Takes the remaining 70% */
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background-color: #ffffff;
   overflow-y: auto; /* Add vertical scrolling if content overflows */
@@ -32,9 +32,8 @@
 
 /* Portrait image styles */
 .portrait-image {
-  max-width: 92%; /* Restrict the image width to 80% of the container */
+  max-width: 100%; /* Restrict the image width to 80% of the container */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 3px; /* Optional rounded corners */
 }
 
 
