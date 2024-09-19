@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: custom_single
+title: ""
 ---
 
 # Interests
